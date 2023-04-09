@@ -1,0 +1,24 @@
+Console.WriteLine("What number is flowing into the clock?");
+string num1 = Console.ReadLine();
+int clockFlow = Convert.ToInt32(num1);
+
+int evenNumber = clockFlow % 2;
+int oddNumber = clockFlow !% 2;
+
+bool tickTock;
+
+if (clockFlow == oddNumber)
+{
+    tickTock = true;
+    Console.WriteLine("tock");
+
+}
+
+ 
+
+
+
+
+
+
+Console.ReadLine();
